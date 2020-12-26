@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter7/screens/LoadingScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,8 +11,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(),
-      home: Container(),
+      theme: ThemeData.dark(),
+      home: LoadingScreen(),
     );
   }
 }
